@@ -1,0 +1,13 @@
+@import "../../../../scss/main.scss";
+
+nav:first-of-type {
+  align-self: flex-end;
+}
+
+.upper_menu {
+  font-size: 13px;
+}
+
+.active-upper {
+  border: 1px solid $yellow;
+}

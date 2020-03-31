@@ -1,0 +1,14 @@
+@import "../../../scss/main.scss";
+
+.button {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid $darkgrey;
+  font-weight: 300;
+}
+
+.big {
+  max-width: 300px;
+  font-size: 36px;
+  text-transform: uppercase;
+}

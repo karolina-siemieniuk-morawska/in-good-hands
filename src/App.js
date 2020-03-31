@@ -8,6 +8,10 @@ function App() {
     <HashRouter>
       <Switch>
         <Route exact path="/" component={Home} />
+        {/* <Route exact path="/donate" component={} />
+        <Route exact path="/login" component={} />
+        <Route exact path="/register" component={} />
+        <Route exact path="/logout" component={} /> */}
         <Route path="*" component={PageNotFound} />
       </Switch>
     </HashRouter>

@@ -1,0 +1,10 @@
+@import "../../../../scss/main.scss";
+
+.lower_menu {
+  font-size: 18px;
+  justify-content: flex-end;
+}
+
+.active {
+  border: 1px solid $brown;
+}

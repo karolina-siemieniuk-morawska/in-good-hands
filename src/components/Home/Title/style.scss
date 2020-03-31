@@ -1,0 +1,13 @@
+@import "../../../scss/main.scss";
+@import "../../../scss/settings/colors";
+
+.title {
+  color: $darkgrey;
+  font-size: 38px;
+  line-height: 55px;
+  text-align: center;
+  &::after {
+    content: url(../../../assets/Decoration.svg);
+    display: block;
+  }
+}
