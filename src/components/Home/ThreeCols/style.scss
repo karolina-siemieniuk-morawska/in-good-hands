@@ -1,0 +1,28 @@
+@import "../../../scss/main.scss";
+
+.three_columns {
+  background-color: $yellow;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  .column {
+    max-width: 400px;
+    text-align: center;
+    p {
+      padding-bottom: 20px;
+      color: $darkgrey;
+    }
+    .col_number {
+      font-size: 90px;
+      font-weight: 300;
+    }
+    .col_title {
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    .col_description {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

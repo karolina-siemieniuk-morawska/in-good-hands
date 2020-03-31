@@ -1,10 +1,19 @@
 @import "../../../../scss/main.scss";
 
+nav:last-of-type {
+  align-self: flex-end;
+}
+
 .lower_menu {
   font-size: 18px;
   justify-content: flex-end;
+  li {
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
 }
 
-.active {
+.active,
+.lower_menu > li:hover {
   border: 1px solid $brown;
 }

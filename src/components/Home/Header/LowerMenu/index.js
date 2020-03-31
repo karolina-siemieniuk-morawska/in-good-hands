@@ -21,7 +21,7 @@ export default function LowerMenu() {
         <li>
           <Link
             activeClass="active"
-            to="description"
+            to="simple_steps"
             spy={true}
             smooth={true}
             offset={-50}

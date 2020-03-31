@@ -1,0 +1,51 @@
+@import "../../../scss/main.scss";
+
+.simple_steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin: 50px auto;
+  }
+  .steps {
+    background-color: $white;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .step {
+      max-width: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 0 70px;
+      p {
+        color: $darkgrey;
+      }
+      img {
+        padding-bottom: 20px;
+        height: 100px;
+      }
+      .step_title {
+        font-size: 18px;
+      }
+      .step_title::after {
+        content: "";
+        width: 70px;
+        height: 1px;
+        display: block;
+        background-color: $darkgrey;
+        margin: 10px auto;
+      }
+      .step_description {
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+  }
+  .button {
+    margin: 50px auto;
+  }
+}

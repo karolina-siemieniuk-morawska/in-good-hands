@@ -6,8 +6,12 @@ nav:first-of-type {
 
 .upper_menu {
   font-size: 13px;
+  li {
+    border: 1px solid transparent;
+  }
 }
 
-.active-upper {
+.active-upper,
+.upper_menu > li:hover {
   border: 1px solid $yellow;
 }
