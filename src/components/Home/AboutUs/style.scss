@@ -1,0 +1,29 @@
+@import "../../../scss/main.scss";
+
+.about_us {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: $white;
+  .about_content {
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+      max-width: 650px;
+      margin: 30px auto;
+      font-size: 30px;
+      line-height: 54px;
+      text-align: center;
+    }
+    img {
+      align-self: flex-end;
+    }
+  }
+  img {
+    max-width: 1000px;
+  }
+}
