@@ -1,0 +1,36 @@
+@import "../../../scss/main.scss";
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  height: 900px;
+  &::after {
+    content: "";
+    background: url(../../../assets/Background-Contact-Form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    max-width: 1920px;
+    opacity: 0.3;
+    position: absolute;
+  }
+  .contact_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      input:last-of-type {
+        text-transform: none;
+        font-size: 18px;
+        width: 150px;
+        padding: 0;
+        align-self: flex-end;
+      }
+    }
+  }
+}

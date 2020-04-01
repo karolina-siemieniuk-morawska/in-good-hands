@@ -6,7 +6,7 @@
   margin-top: 30px;
   background-color: $white;
   .about_content {
-    margin: auto;
+    margin: 50px auto;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,8 @@
     justify-content: center;
     p {
       max-width: 650px;
-      margin: 30px auto;
-      font-size: 30px;
+      margin: 30px;
+      font-size: 26px;
       line-height: 54px;
       text-align: center;
     }
@@ -24,6 +24,6 @@
     }
   }
   img {
-    max-width: 1000px;
+    max-width: 1050px;
   }
 }

@@ -8,8 +8,7 @@ export default function LowerMenu() {
       <ul className="lower_menu">
         <li>
           <Link
-            activeClass="active"
-            to="start"
+            to="header"
             spy={true}
             smooth={true}
             offset={-50}
@@ -20,7 +19,6 @@ export default function LowerMenu() {
         </li>
         <li>
           <Link
-            activeClass="active"
             to="simple_steps"
             spy={true}
             smooth={true}
@@ -31,20 +29,12 @@ export default function LowerMenu() {
           </Link>
         </li>
         <li>
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-          >
+          <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
             About Us
           </Link>
         </li>
         <li>
           <Link
-            activeClass="active"
             to="organisations"
             spy={true}
             smooth={true}
@@ -56,7 +46,6 @@ export default function LowerMenu() {
         </li>
         <li>
           <Link
-            activeClass="active"
             to="contact"
             spy={true}
             smooth={true}

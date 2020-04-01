@@ -1,6 +1,6 @@
 import React from "react";
-import UpperMenu from "../Header/UpperMenu/index";
-import LowerMenu from "../Header/LowerMenu/index";
+import UpperMenu from "../1_Header/UpperMenu/index";
+import LowerMenu from "../1_Header/LowerMenu/index";
 import Button from "../../Elements/Button/index";
 import "./style.scss";
 
