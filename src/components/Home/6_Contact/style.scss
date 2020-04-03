@@ -7,6 +7,7 @@
   align-items: flex-end;
   height: 85vh;
   max-height: 900px;
+  margin-bottom: 20px;
   &::after {
     content: "";
     background: url(../../../assets/Background-Contact-Form.jpg);
@@ -26,6 +27,7 @@
     justify-content: center;
     margin: 150px;
     width: 450px;
+    z-index: 1;
     form {
       display: flex;
       flex-direction: column;
@@ -39,6 +41,7 @@
       textarea {
         height: 100px;
         padding-top: 0;
+        background: none;
       }
       input,
       textarea {
@@ -60,6 +63,7 @@
         }
       }
       .small_button {
+        background: none;
         border: 1px solid $brown;
         text-transform: none;
         font-size: 18px;
@@ -75,8 +79,8 @@
   .social-media {
     margin: 0 150px;
     margin-bottom: -50px;
+    z-index: 1;
     a {
-      cursor: pointer;
       padding-left: 20px;
     }
   }
