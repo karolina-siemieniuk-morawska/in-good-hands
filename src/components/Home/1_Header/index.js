@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import UpperMenu from "../1_Header/UpperMenu/index";
 import LowerMenu from "../1_Header/LowerMenu/index";
 import Button from "../../Elements/Button/index";
@@ -15,8 +16,12 @@ export default function Header() {
           <br /> Donate unwanted things in good hands
         </h1>
         <div className="buttons">
-          <Button content="Donate things" />
-          <Button content="Organize collection" />
+          <Link to="/login">
+            <Button content="Donate things" />
+          </Link>
+          <Link to="/login">
+            <Button content="Organize collection" />
+          </Link>
         </div>
       </div>
     </div>

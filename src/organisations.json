@@ -1,0 +1,203 @@
+{
+  "foundations": [
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Foundation",
+      "description": "We help some people in some way",
+      "donations": ["thing-1"]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Organization",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    }
+  ],
+  "local collections": [
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    },
+    {
+      "name": "Some Collection",
+      "description": "We help some people in some way",
+      "donations": ["thing-1", "thing-2", "thing-3"]
+    }
+  ]
+}
