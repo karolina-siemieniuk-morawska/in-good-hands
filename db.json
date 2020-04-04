@@ -133,7 +133,7 @@
       "donations": ["thing-1", "thing-2", "thing-3"]
     }
   ],
-  "local collections": [
+  "collections": [
     {
       "name": "Some Collection",
       "description": "We help some people in some way",

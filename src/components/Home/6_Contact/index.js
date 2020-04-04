@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Title from "../../Elements/Title/index";
+import Button from "../../Elements/Button/index";
 import instagram from "../../../assets/Instagram.svg";
 import facebook from "../../../assets/Facebook.svg";
 import "./style.scss";
@@ -43,7 +44,7 @@ export default function Contact() {
           </div>
           <label>Your message:</label>
           <textarea placeholder="Hi! I'd like to ask..."></textarea>
-          <input className="button small_button" type="submit" value="Send" />
+          <Button content="Send" className="small_button" />
         </form>
       </div>
 

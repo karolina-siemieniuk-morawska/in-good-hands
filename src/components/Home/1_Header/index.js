@@ -17,10 +17,10 @@ export default function Header() {
         </h1>
         <div className="buttons">
           <Link to="/login">
-            <Button content="Donate things" />
+            <Button content="Donate things" className="button" />
           </Link>
           <Link to="/login">
-            <Button content="Organize collection" />
+            <Button content="Organize collection" className="button" />
           </Link>
         </div>
       </div>

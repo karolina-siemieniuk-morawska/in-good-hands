@@ -11,20 +11,14 @@ export default function LowerMenu() {
             to="header"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={100}
             duration={500}
           >
             Start
           </Link>
         </li>
         <li>
-          <Link
-            to="simple_steps"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-          >
+          <Link to="simple_steps" spy={true} smooth={true} duration={500}>
             Description
           </Link>
         </li>
@@ -34,24 +28,12 @@ export default function LowerMenu() {
           </Link>
         </li>
         <li>
-          <Link
-            to="organisations"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-          >
+          <Link to="organizations" spy={true} smooth={true} duration={500}>
             Foundations and Organizations
           </Link>
         </li>
         <li>
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-          >
+          <Link to="contact" spy={true} smooth={true} duration={500}>
             Contact
           </Link>
         </li>

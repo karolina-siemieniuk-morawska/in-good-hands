@@ -11,7 +11,7 @@ export default function SimpleSteps() {
       <Title content="Donate in 4 simple steps" />
       <Steps />
       <Link to="/login">
-        <Button content="Donate things" />
+        <Button content="Donate things" className="button" />
       </Link>
     </div>
   );
