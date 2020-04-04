@@ -3,201 +3,116 @@
     {
       "name": "Some Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
+    },
+    {
+      "name": "Some Other Foundation",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
+    },
+    {
+      "name": "Some Other Foundation",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-3"]
     },
     {
       "name": "Some Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
+    },
+    {
+      "name": "Some Other Foundation",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2"]
+    },
+    {
+      "name": "Some Other Foundation",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2"]
+      "donations": ["dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1"]
     },
     {
-      "name": "Some Foundation",
+      "name": "Some Other Foundation",
       "description": "We help some people in some way",
-      "donations": ["thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Foundation",
-      "description": "We help some people in some way",
-      "donations": ["thing-1"]
-    },
-    {
-      "name": "Some Foundation",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Foundation",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-3"]
-    },
-    {
-      "name": "Some Foundation",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Foundation",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Foundation",
-      "description": "We help some people in some way",
-      "donations": ["thing-1"]
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     }
   ],
   "organizations": [
     {
       "name": "Some Organization",
       "description": "We help some people in some way",
-      "donations": ["thing-2", "thing-3"]
+      "donations": ["dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Organization",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
+    },
+    {
+      "name": "Some Other Organization",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-3"]
     },
     {
       "name": "Some Organization",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2"]
+    },
+    {
+      "name": "Some Other Organization",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Organization",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2"]
+      "donations": ["dontaion-1"]
     },
     {
       "name": "Some Organization",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Organization",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     }
   ],
   "collections": [
     {
       "name": "Some Collection",
       "description": "We help some people in some way",
-      "donations": ["thing-2", "thing-3"]
+      "donations": ["dontaion-2", "dontaion-3"]
+    },
+    {
+      "name": "Some Other Collection",
+      "description": "We help some people in some way",
+      "donations": ["dontaion-1", "dontaion-2", "dontaion-3"]
     },
     {
       "name": "Some Collection",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-2"]
     },
     {
-      "name": "Some Collection",
+      "name": "Some Other Collection",
       "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
-    },
-    {
-      "name": "Some Collection",
-      "description": "We help some people in some way",
-      "donations": ["thing-1", "thing-2", "thing-3"]
+      "donations": ["dontaion-1", "dontaion-3"]
     }
   ]
 }

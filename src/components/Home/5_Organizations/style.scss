@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  h3 {
+    margin-top: 50px;
+    height: 450px;
+  }
   .title {
     margin-top: 100px;
   }
@@ -14,6 +18,11 @@
     .button {
       padding: 5px 10px;
       width: 25%;
+      border: 1px solid transparent;
+      &:hover,
+      &:active {
+        border: 1px solid $brown;
+      }
     }
   }
   p {
@@ -22,5 +31,62 @@
     text-align: center;
     line-height: 30px;
     font-size: 20px;
+  }
+  nav {
+    align-self: initial;
+    margin-bottom: 30px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        width: initial;
+        padding: 15px;
+        font-size: 16px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        &:hover,
+        &:active {
+          border: 1px solid $brown;
+        }
+      }
+    }
+  }
+}
+
+.list {
+  display: initial;
+  width: 60%;
+  margin-top: 50px;
+  li.active {
+    border: 2px solid red;
+  }
+  li {
+    border-bottom: 1px solid $brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    div {
+      h5 {
+        text-align: initial;
+        font-size: 24px;
+        font-weight: 200;
+      }
+      p {
+        max-width: initial;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+    }
+    p {
+      font-size: 16px;
+      margin-top: 10px;
+      & > * {
+        padding-left: 10px;
+      }
+    }
+  }
+  li:last-of-type {
+    border: none;
   }
 }

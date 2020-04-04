@@ -1,23 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "../../Elements/Title/index";
 import Button from "../../Elements/Button/index";
+import Foundations from "./Foundations";
 import "./style.scss";
-// , useState, useEffect
 
 export default function Organizations() {
-  // const [orgs, setOrgs] = useState([]);
-  // const [currentPage, setCurrentPage] = useState(1);
-  // const [orgsPerPage, setOrgsPerPage] = useState(3);
-  const handleOrgs = () => {
-    console.log("orgs");
-  };
+  const [organizationsGroup, setOrganizationsGroup] = useState("foundations");
+  // const [pageNumb, setPageNumb] = useState(0);
 
   const handleFunds = () => {
-    console.log("funds");
+    setOrganizationsGroup("foundations");
+    // setPageNumb(1);
+  };
+
+  const handleOrgs = () => {
+    setOrganizationsGroup("organizations");
+    // setPageNumb(1);
   };
 
   const handleColls = () => {
-    console.log("colls");
+    setOrganizationsGroup("collections");
+    // setPageNumb(1);
   };
 
   return (
@@ -27,12 +30,12 @@ export default function Organizations() {
         <Button
           content="Foundations"
           className="button small_button"
-          handleClick={handleOrgs}
+          handleClick={handleFunds}
         />
         <Button
           content="Organizations"
           className="button small_button"
-          handleClick={handleFunds}
+          handleClick={handleOrgs}
         />
         <Button
           content="Local Collections"
@@ -41,10 +44,12 @@ export default function Organizations() {
         />
       </div>
       <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi.
       </p>
+      <Foundations chosenFund={organizationsGroup} />
     </div>
   );
 }
+// pageNumb={pageNumb}
