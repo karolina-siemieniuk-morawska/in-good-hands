@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Pagination from "./Pagination";
+import "./Foundations.scss";
 
-export default function Foundations({ chosenFund, pageNumb }) {
+export default function Foundations({ chosenFund, paginate, currentPage }) {
   const [funds, setFunds] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
   const [fundsPerPage] = useState(3);
 
+  // fetch for data from JSON Server
   useEffect(() => {
     const fetchFunds = async () => {
       setLoading(true);
@@ -19,23 +20,12 @@ export default function Foundations({ chosenFund, pageNumb }) {
     fetchFunds();
   }, [chosenFund]);
 
-  // useEffect(() => {
-  //   paginate(1);
-  // }, [pageNumb]);
-
-  // First displayed page
+  // Calculate currently displayed page
   const lastFund = currentPage * fundsPerPage;
   const firstFund = lastFund - fundsPerPage;
   const firstPage = funds.slice(firstFund, lastFund);
 
-  const paginate = (e, pageNumber) => {
-    console.log(e.target);
-    if (e.target) {
-      e.target.classList.add("active");
-    }
-    setCurrentPage(pageNumber);
-  };
-
+  // while waiting for server to response, display:
   if (loading) {
     return <h3>Loading...</h3>;
   }

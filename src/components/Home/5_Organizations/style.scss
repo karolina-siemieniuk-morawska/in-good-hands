@@ -44,8 +44,7 @@
         font-size: 16px;
         border: 1px solid transparent;
         cursor: pointer;
-        &:hover,
-        &:active {
+        &:hover {
           border: 1px solid $brown;
         }
       }
@@ -53,40 +52,6 @@
   }
 }
 
-.list {
-  display: initial;
-  width: 60%;
-  margin-top: 50px;
-  li.active {
-    border: 2px solid red;
-  }
-  li {
-    border-bottom: 1px solid $brown;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0;
-    div {
-      h5 {
-        text-align: initial;
-        font-size: 24px;
-        font-weight: 200;
-      }
-      p {
-        max-width: initial;
-        margin-top: 10px;
-        font-size: 16px;
-      }
-    }
-    p {
-      font-size: 16px;
-      margin-top: 10px;
-      & > * {
-        padding-left: 10px;
-      }
-    }
-  }
-  li:last-of-type {
-    border: none;
-  }
+.active {
+  border: 1px solid $brown !important;
 }

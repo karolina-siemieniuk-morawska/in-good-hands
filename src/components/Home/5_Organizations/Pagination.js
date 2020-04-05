@@ -3,6 +3,7 @@ import React from "react";
 export default function Pagination({ fundsPerPage, allFunds, paginate }) {
   const pageNumbers = [];
 
+  // set amount of pages based on number of given records
   for (let i = 1; i <= Math.ceil(allFunds / fundsPerPage); i++) {
     pageNumbers.push(i);
   }
@@ -10,11 +11,11 @@ export default function Pagination({ fundsPerPage, allFunds, paginate }) {
   return (
     <nav>
       <ul className="pagination">
-        {pageNumbers.map(number => (
+        {pageNumbers.map((number) => (
           <li
             key={number}
             className="small_button"
-            onClick={e => paginate(e, number)}
+            onClick={() => paginate(number)}
           >
             {number}
           </li>

@@ -6,21 +6,42 @@ import "./style.scss";
 
 export default function Organizations() {
   const [organizationsGroup, setOrganizationsGroup] = useState("foundations");
-  // const [pageNumb, setPageNumb] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const handleFunds = () => {
+  // change currently displayed page
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  // change currently displayed organisations group
+  const handleFunds = (event) => {
     setOrganizationsGroup("foundations");
-    // setPageNumb(1);
+    paginate(1);
+    if (event.target) {
+      event.target.nextSibling.classList.remove("active");
+      event.target.nextSibling.nextSibling.classList.remove("active");
+      event.target.classList.add("active");
+    }
   };
 
-  const handleOrgs = () => {
+  const handleOrgs = (event) => {
     setOrganizationsGroup("organizations");
-    // setPageNumb(1);
+    paginate(1);
+    if (event.target) {
+      event.target.nextSibling.classList.remove("active");
+      event.target.previousSibling.classList.remove("active");
+      event.target.classList.add("active");
+    }
   };
 
-  const handleColls = () => {
+  const handleColls = (event) => {
     setOrganizationsGroup("collections");
-    // setPageNumb(1);
+    paginate(1);
+    if (event.target) {
+      event.target.previousSibling.classList.remove("active");
+      event.target.previousSibling.previousSibling.classList.remove("active");
+      event.target.classList.add("active");
+    }
   };
 
   return (
@@ -29,7 +50,7 @@ export default function Organizations() {
       <div className="orgs_buttons">
         <Button
           content="Foundations"
-          className="button small_button"
+          className="button small_button active"
           handleClick={handleFunds}
         />
         <Button
@@ -48,8 +69,11 @@ export default function Organizations() {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi.
       </p>
-      <Foundations chosenFund={organizationsGroup} />
+      <Foundations
+        chosenFund={organizationsGroup}
+        paginate={paginate}
+        currentPage={currentPage}
+      />
     </div>
   );
 }
-// pageNumb={pageNumb}
