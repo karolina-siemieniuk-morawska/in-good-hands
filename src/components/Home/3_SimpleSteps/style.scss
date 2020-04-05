@@ -49,3 +49,13 @@
     margin: 50px auto;
   }
 }
+
+@media (max-width: 1000px) {
+  .steps {
+    flex-direction: column;
+    .step {
+      margin: auto !important;
+      margin-top: 50px !important;
+    }
+  }
+}

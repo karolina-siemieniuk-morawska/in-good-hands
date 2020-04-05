@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: flex-end;
   height: 85vh;
-  max-height: 900px;
+  max-height: 700px;
   margin-bottom: 20px;
   &::after {
     content: "";
@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
-    max-height: 900px;
+    max-height: 700px;
     width: 100%;
     max-width: 1920px;
     opacity: 0.3;
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 150px;
+    margin-right: 150px;
     width: 450px;
     z-index: 1;
     form {
@@ -41,10 +41,10 @@
       textarea {
         height: 100px;
         padding-top: 0;
-        background: none;
       }
       input,
       textarea {
+        background: rgba(245, 243, 243, 0.5);
         width: 100%;
         border: none;
         border-bottom: 1px solid $brown;
@@ -52,7 +52,7 @@
       }
       input::placeholder,
       textarea::placeholder {
-        opacity: 0.5;
+        opacity: 0.7;
         font-family: $font-base;
       }
       .name_email {
@@ -62,15 +62,44 @@
           width: 48%;
         }
       }
+      button {
+        background: rgba(245, 243, 243, 0.5);
+      }
     }
   }
 
   .social-media {
-    margin: 0 150px;
+    margin: 20px 150px;
     margin-bottom: -50px;
     z-index: 1;
     a {
       padding-left: 20px;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact {
+    margin-top: 50px;
+    height: auto;
+    &::after {
+      height: 100%;
+    }
+  }
+  .contact_content {
+    width: 85% !important;
+    max-width: 700px;
+    margin: auto !important;
+  }
+  .social-media {
+    margin: 30px 10px !important;
   }
 }

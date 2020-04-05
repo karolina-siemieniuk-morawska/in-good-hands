@@ -27,3 +27,15 @@
     max-width: 1050px;
   }
 }
+
+@media (max-width: 1400px) {
+  .about_us {
+    flex-direction: column;
+    & > img {
+      max-height: 30%;
+      max-width: 100vw;
+      align-self: center;
+      margin-bottom: 30px;
+    }
+  }
+}

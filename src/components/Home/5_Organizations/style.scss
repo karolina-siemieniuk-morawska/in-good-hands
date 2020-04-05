@@ -55,3 +55,21 @@
 .active {
   border: 1px solid $brown !important;
 }
+
+@media (max-width: 1400px) {
+  .organzations {
+    p {
+      max-width: 90%;
+      width: 90% !important;
+    }
+  }
+  .orgs_buttons {
+    flex-direction: column;
+    width: 80% !important;
+    button {
+      padding: 0;
+      width: 200px !important;
+      align-self: center;
+    }
+  }
+}
