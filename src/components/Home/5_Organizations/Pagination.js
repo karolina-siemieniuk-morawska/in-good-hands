@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-export default function Pagination({ fundsPerPage, allFunds, paginate }) {
+export default function Pagination({
+  fundsPerPage,
+  allFunds,
+  paginate,
+  addActiveStyle,
+}) {
   const pageNumbers = [];
 
   // set amount of pages based on number of given records
@@ -14,8 +19,11 @@ export default function Pagination({ fundsPerPage, allFunds, paginate }) {
         {pageNumbers.map((number) => (
           <li
             key={number}
-            className="small_button"
-            onClick={() => paginate(number)}
+            className={`small_button ${number === 1 ? "active" : ""}`}
+            onClick={(e) => {
+              paginate(number);
+              addActiveStyle(e);
+            }}
           >
             {number}
           </li>

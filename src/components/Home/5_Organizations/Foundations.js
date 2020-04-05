@@ -3,7 +3,12 @@ import axios from "axios";
 import Pagination from "./Pagination";
 import "./Foundations.scss";
 
-export default function Foundations({ chosenFund, paginate, currentPage }) {
+export default function Foundations({
+  chosenFund,
+  paginate,
+  currentPage,
+  addActiveStyle,
+}) {
   const [funds, setFunds] = useState([]);
   const [loading, setLoading] = useState(false);
   const [fundsPerPage] = useState(3);
@@ -47,6 +52,7 @@ export default function Foundations({ chosenFund, paginate, currentPage }) {
         fundsPerPage={fundsPerPage}
         allFunds={funds.length}
         paginate={paginate}
+        addActiveStyle={addActiveStyle}
       />
     </>
   );

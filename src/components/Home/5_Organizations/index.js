@@ -15,31 +15,27 @@ export default function Organizations() {
 
   // change currently displayed organisations group
   const handleFunds = (event) => {
-    setOrganizationsGroup("foundations");
-    paginate(1);
-    if (event.target) {
-      event.target.nextSibling.classList.remove("active");
-      event.target.nextSibling.nextSibling.classList.remove("active");
-      event.target.classList.add("active");
+    if (event.target.innerText === "Foundations") {
+      setOrganizationsGroup("foundations");
+    } else if (event.target.innerText === "Organizations") {
+      setOrganizationsGroup("organizations");
+    } else {
+      setOrganizationsGroup("collections");
     }
+    paginate(1);
+    addActiveStyle(event);
   };
 
-  const handleOrgs = (event) => {
-    setOrganizationsGroup("organizations");
-    paginate(1);
-    if (event.target) {
-      event.target.nextSibling.classList.remove("active");
-      event.target.previousSibling.classList.remove("active");
-      event.target.classList.add("active");
-    }
+  // add highlight to active page
+  const getAllSiblings = (element, parent) => {
+    const babies = [...parent.children];
+    return babies.filter((child) => child !== element);
   };
 
-  const handleColls = (event) => {
-    setOrganizationsGroup("collections");
-    paginate(1);
+  const addActiveStyle = (event) => {
     if (event.target) {
-      event.target.previousSibling.classList.remove("active");
-      event.target.previousSibling.previousSibling.classList.remove("active");
+      const siblings = getAllSiblings(event.target, event.target.parentNode);
+      siblings.forEach((sibling) => sibling.classList.remove("active"));
       event.target.classList.add("active");
     }
   };
@@ -56,12 +52,12 @@ export default function Organizations() {
         <Button
           content="Organizations"
           className="button small_button"
-          handleClick={handleOrgs}
+          handleClick={handleFunds}
         />
         <Button
           content="Local Collections"
           className="button small_button"
-          handleClick={handleColls}
+          handleClick={handleFunds}
         />
       </div>
       <p>
@@ -72,6 +68,7 @@ export default function Organizations() {
       <Foundations
         chosenFund={organizationsGroup}
         paginate={paginate}
+        addActiveStyle={addActiveStyle}
         currentPage={currentPage}
       />
     </div>
