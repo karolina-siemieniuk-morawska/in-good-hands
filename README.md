@@ -2,7 +2,7 @@ Project created with [Create React App](https://github.com/facebook/create-react
 
 # In good hands
 
-React based imaginary platform meant for donating unnecessary stuff "in good hands". Platform is still in development, currently I am working on login and register pages. Mobile version is not fully finished yet, best to display on desktop.
+React based imaginary platform meant for donating unnecessary stuff "in good hands". Platform is still in development, currently I am working on login and register pages. Mobile version is not fully finished yet (but works!), best to display on desktop.
 
 ### Preview
 
