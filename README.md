@@ -10,7 +10,7 @@ https://in-good-hands.netlify.com/#/
 
 ## Technologies used
 
-React, React Router, React Scroll, Axios, JavaScript, Sass.
+React, React Router, React Scroll, Axios, JavaScript, Sass, JSON Server.
 
 ## Available Scripts
 
