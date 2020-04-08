@@ -41,8 +41,6 @@ export default function Form() {
       },
       body: JSON.stringify(data),
     }).then((response) => {
-      console.log(response.json());
-      console.log(response.ok, "ok", response.status);
       if (response.ok) {
         const inputs = document.querySelectorAll("#input");
         inputs.forEach((input) => (input.value = ""));
