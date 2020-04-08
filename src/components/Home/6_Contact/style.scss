@@ -28,6 +28,15 @@
     margin-right: 150px;
     width: 450px;
     z-index: 1;
+    h2 + p {
+      text-align: center;
+      color: green;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 20px auto;
+      width: 250px;
+      line-height: 30px;
+    }
     form {
       display: flex;
       flex-direction: column;
@@ -106,7 +115,8 @@
     margin: 30px 10px !important;
   }
   input,
-  textarea {
+  textarea,
+  h2 + p {
     background: rgba(245, 243, 243, 0.5) !important;
   }
   button {
