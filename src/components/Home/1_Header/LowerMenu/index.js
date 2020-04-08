@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./style.scss";
+// import { NavLink } from "react-router-dom";
 
 export default function LowerMenu() {
   return (

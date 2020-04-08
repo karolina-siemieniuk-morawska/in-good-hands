@@ -11,7 +11,7 @@ nav:first-of-type {
   }
 }
 
-.active-upper,
-.upper_menu > li:hover {
+.active-upper li,
+.upper_menu > a > li:hover {
   border: 1px solid $yellow;
 }

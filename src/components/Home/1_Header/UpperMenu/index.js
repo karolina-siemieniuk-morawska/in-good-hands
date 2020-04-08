@@ -6,16 +6,12 @@ export default function UpperMenu() {
   return (
     <nav>
       <ul className="upper_menu">
-        <li>
-          <NavLink activeClassName="active-upper" to="/login">
-            Sign In
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="active-upper" to="/register">
-            Register
-          </NavLink>
-        </li>
+        <NavLink activeClassName="active-upper" to="/login">
+          <li>Sign In</li>
+        </NavLink>
+        <NavLink activeClassName="active-upper" to="/register">
+          <li>Register</li>
+        </NavLink>
       </ul>
     </nav>
   );
