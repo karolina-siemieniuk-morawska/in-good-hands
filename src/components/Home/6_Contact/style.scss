@@ -25,7 +25,8 @@
       color: green;
       font-size: 14px;
       font-weight: bold;
-      margin: 20px auto;
+      margin: 20px;
+      margin-right: 300px;
       width: 250px;
       line-height: 30px;
     }
@@ -92,7 +93,8 @@
   .contact_content {
     background: rgba(245, 243, 243, 0.8) !important;
     form,
-    .title {
+    .title,
+    h2 + p {
       width: 300px !important;
       margin: auto !important;
     }

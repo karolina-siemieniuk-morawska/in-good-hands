@@ -39,6 +39,7 @@
   .list {
     width: 85%;
     div {
+      width: 400px !important;
       h5 {
         font-size: 18px !important;
       }
@@ -51,5 +52,11 @@
       font-size: 14px !important;
       max-width: 30% !important;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .list div {
+    width: 200px !important;
   }
 }
