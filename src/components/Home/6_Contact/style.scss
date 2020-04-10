@@ -6,28 +6,20 @@
   justify-content: center;
   align-items: flex-end;
   height: 85vh;
-  max-height: 700px;
-  margin-bottom: 20px;
-  &::after {
-    content: "";
-    background: url(../../../assets/Background-Contact-Form.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 85vh;
-    max-height: 700px;
-    width: 100%;
-    max-width: 1920px;
-    opacity: 0.3;
-    position: absolute;
-  }
-
+  background: url(../../../assets/Background-Contact-Form.jpg);
+  background-size: cover;
   .contact_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 150px;
-    width: 450px;
-    z-index: 1;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 243, 243, 0.5);
+    padding: 30px 0;
+    .title {
+      margin-right: 300px;
+    }
     h2 + p {
       text-align: center;
       color: green;
@@ -43,6 +35,8 @@
       font-size: 16px;
       font-weight: bold;
       margin-top: 20px;
+      margin-right: 175px;
+      width: 500px;
       & * {
         display: block;
         padding: 15px 0;
@@ -79,22 +73,11 @@
       }
     }
   }
-
-  .social-media {
-    margin: 20px 150px;
-    margin-bottom: -50px;
-    z-index: 1;
-    a {
-      padding-left: 20px;
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  .contact {
-    &::after {
-      content: none;
-    }
+  input,
+  textarea,
+  h2 + p,
+  button {
+    background: rgba(245, 243, 243, 0.5) !important;
   }
 }
 
@@ -102,24 +85,22 @@
   .contact {
     margin-top: 50px;
     height: auto;
-    &::after {
-      height: 100%;
-    }
   }
+}
+
+@media (max-width: 800px) {
   .contact_content {
-    width: 85% !important;
-    max-width: 700px;
-    margin: auto !important;
-  }
-  .social-media {
-    margin: 30px 10px !important;
-  }
-  input,
-  textarea,
-  h2 + p {
-    background: rgba(245, 243, 243, 0.5) !important;
-  }
-  button {
-    background: rgba(245, 243, 243, 0.5) !important;
+    background: rgba(245, 243, 243, 0.8) !important;
+    form,
+    .title {
+      width: 300px !important;
+      margin: auto !important;
+    }
+    input,
+    textarea,
+    h2 + p,
+    button {
+      background: none !important;
+    }
   }
 }

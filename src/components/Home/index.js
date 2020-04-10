@@ -5,6 +5,7 @@ import SimpleSteps from "../Home/3_SimpleSteps/index";
 import AboutUs from "../Home/4_AboutUs/index";
 import Organizations from "../Home/5_Organizations/index";
 import Contact from "../Home/6_Contact/index";
+import { Footer } from "../Home/7_Footer/index";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutUs />
       <Organizations />
       <Contact />
+      <Footer />
     </>
   );
 }

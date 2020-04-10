@@ -1,0 +1,20 @@
+@import "../../../scss/main.scss";
+
+.social-media {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $white;
+  padding: 10px;
+  .sm-logos {
+    display: flex;
+    flex-wrap: nowrap;
+    a {
+      padding-left: 20px;
+    }
+  }
+  .am-here {
+    width: 100px;
+  }
+}
