@@ -90,19 +90,25 @@
 }
 
 @media (max-width: 800px) {
-  .contact_content {
-    background: rgba(245, 243, 243, 0.8) !important;
-    form,
-    .title,
-    h2 + p {
-      width: 300px !important;
-      margin: auto !important;
+  .contact {
+    height: 100vh;
+    .contact_content {
+      background: rgba(245, 243, 243, 0.8) !important;
+      form,
+      .title,
+      h2 + p {
+        width: 300px !important;
+        margin: auto !important;
+      }
+      input,
+      textarea,
+      h2 + p,
+      button {
+        background: none !important;
+      }
     }
-    input,
-    textarea,
-    h2 + p,
-    button {
-      background: none !important;
+    .small_button {
+      margin-top: 50px !important;
     }
   }
 }

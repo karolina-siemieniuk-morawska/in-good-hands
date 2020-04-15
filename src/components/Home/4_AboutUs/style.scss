@@ -3,7 +3,6 @@
 .about_us {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
   background-color: $white;
   .about_content {
     margin: 50px auto;
@@ -36,6 +35,15 @@
       max-width: 90vw;
       align-self: center;
       margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .about_content {
+    margin-top: 100px !important;
+    p {
+      font-size: 20px !important;
     }
   }
 }

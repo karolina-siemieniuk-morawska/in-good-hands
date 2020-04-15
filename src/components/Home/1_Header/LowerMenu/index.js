@@ -5,8 +5,22 @@ import { Hamburger } from "./Hamburger";
 // import { NavLink } from "react-router-dom";
 
 export default function LowerMenu() {
-  const klik = (e) => {
+  const hideMenu = (e) => {
     e.target.parentNode.parentNode.classList.remove("visible_menu");
+    if (
+      window.location.href === "/#/login" ||
+      window.location.href === "/#/register"
+    ) {
+      window.location.href = "/";
+    }
+  };
+
+  const page = {
+    header: "header",
+    simple_steps: "simple_steps",
+    about: "about",
+    organizations: "organizations",
+    contact: "contact",
   };
 
   return (
@@ -15,56 +29,57 @@ export default function LowerMenu() {
       <ul className="lower_menu">
         <li>
           <Link
-            to="header"
+            href="#header"
+            to={page.header}
             spy={true}
             smooth={true}
             offset={100}
             duration={500}
-            onClick={klik}
+            onClick={hideMenu}
           >
             Start
           </Link>
         </li>
         <li>
           <Link
-            to="simple_steps"
+            to={page.simple_steps}
             spy={true}
             smooth={true}
             duration={500}
-            onClick={klik}
+            onClick={hideMenu}
           >
             Description
           </Link>
         </li>
         <li>
           <Link
-            to="about"
+            to={page.about}
             spy={true}
             smooth={true}
             duration={500}
-            onClick={klik}
+            onClick={hideMenu}
           >
             About Us
           </Link>
         </li>
         <li>
           <Link
-            to="organizations"
+            to={page.organizations}
             spy={true}
             smooth={true}
             duration={500}
-            onClick={klik}
+            onClick={hideMenu}
           >
             Foundations and Organizations
           </Link>
         </li>
         <li>
           <Link
-            to="contact"
+            to={page.contact}
             spy={true}
             smooth={true}
             duration={500}
-            onClick={klik}
+            onClick={hideMenu}
           >
             Contact
           </Link>

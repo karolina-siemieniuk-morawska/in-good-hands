@@ -7,7 +7,7 @@ import "./style.scss";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="header" name="header">
       <div className="header_content">
         <UpperMenu />
         <LowerMenu />
