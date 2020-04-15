@@ -63,3 +63,13 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .upper_menu {
+    margin-right: 0 !important;
+  }
+  .register_content,
+  .login_content {
+    margin-top: 40px !important;
+  }
+}

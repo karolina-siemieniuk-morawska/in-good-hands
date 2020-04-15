@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hamburger = () => {
   const handleMenu = () => {
-    document.querySelector(".lower_menu").toggleAttribute("hidden");
+    document.querySelector(".lower_menu").classList.toggle("visible_menu");
   };
 
   return (
