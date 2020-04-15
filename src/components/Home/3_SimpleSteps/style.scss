@@ -50,7 +50,16 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
+  .steps {
+    flex-wrap: wrap;
+    .step {
+      margin-bottom: 50px !important;
+    }
+  }
+}
+
+@media (max-width: 700px) {
   .steps {
     flex-direction: column;
     .step {

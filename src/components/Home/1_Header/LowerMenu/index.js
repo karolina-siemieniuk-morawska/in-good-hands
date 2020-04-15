@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./style.scss";
+import { Hamburger } from "./Hamburger";
 // import { NavLink } from "react-router-dom";
 
 export default function LowerMenu() {
   return (
     <nav>
-      <ul className="lower_menu">
+      {window.matchMedia("(max-width: 750px)").matches && <Hamburger />}
+      <ul className="lower_menu" hidden>
         <li>
           <Link
             to="header"

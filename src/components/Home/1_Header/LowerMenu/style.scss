@@ -16,3 +16,57 @@ nav:last-of-type {
 .lower_menu > li:hover {
   border: 1px solid $brown;
 }
+
+@media (max-width: 750px) {
+  .lower_menu {
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 80%;
+    height: 100%;
+    background: $white;
+    li:first-of-type {
+      padding-top: 25px;
+    }
+    li:hover {
+      border: 1px solid transparent !important;
+    }
+  }
+  .menu_button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hamburger {
+      transition: all 0.5s ease-in-out;
+      width: 35px;
+      height: 3px;
+      background-color: $brown;
+      border-radius: 50px;
+      z-index: 2;
+    }
+    .hamburger::before,
+    .hamburger::after {
+      content: "";
+      display: block;
+      border-radius: 50px;
+      width: 35px;
+      height: 3px;
+      background-color: $brown;
+    }
+    .hamburger::before {
+      transform: translateY(-10px);
+    }
+    .hamburger::after {
+      transform: translateY(7px);
+    }
+  }
+}

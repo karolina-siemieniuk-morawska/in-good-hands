@@ -27,17 +27,22 @@
   }
 }
 
-// @media (max-width: 800px) {
-//   .three_columns {
-//     margin-top: 250px !important;
-//   }
-// }
+@media (max-width: 1300px) {
+  .col_description,
+  .col_title {
+    max-width: 200px;
+  }
+}
 
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .three_columns {
     flex-direction: column;
     .column {
       margin: auto;
+      .col_description,
+      .col_title {
+        max-width: 100%;
+      }
     }
   }
 }
