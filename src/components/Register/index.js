@@ -2,27 +2,34 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import "../Login/style.scss";
-import LowerMenu from "../Home/1_Header/LowerMenu/index";
 import UpperMenu from "../Home/1_Header/UpperMenu/index";
 import Title from "../Elements/Title/index";
 import Button from "../Elements/Button/index";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
+const element = <FontAwesomeIcon icon={faHome} />;
 
 export default function Register() {
   const { register, handleSubmit, getValues, errors } = useForm();
 
-  const onSubmit = async () => {
+  const toMainPage = () => {
     window.location.href = "/";
   };
 
   return (
     <div className="container login">
       <UpperMenu />
-      <LowerMenu />
+      <Button
+        content={element}
+        className="home_button"
+        handleClick={toMainPage}
+      />
 
       <div className="register_content">
         <Title content="Register" />
 
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(toMainPage)}>
           <div className="form">
             <label>
               E-mail

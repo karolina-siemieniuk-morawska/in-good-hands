@@ -16,7 +16,7 @@ export default function Logout() {
       </div>
       <div className="login_buttons">
         <Link to="/">
-          <Button content="Home page" className="small_button" />
+          <Button content="Home" className="small_button" />
         </Link>
       </div>
     </div>

@@ -26,7 +26,7 @@ nav:last-of-type {
     display: none;
     flex-direction: column;
     justify-content: space-evenly;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -44,15 +44,17 @@ nav:last-of-type {
     display: flex;
   }
   .menu_button {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 40px;
     height: 40px;
-    margin: 20px;
+    margin: 2px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: $white;
+    border-radius: 5px;
     z-index: 2;
     cursor: pointer;
     .hamburger {
