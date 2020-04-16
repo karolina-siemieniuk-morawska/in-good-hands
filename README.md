@@ -6,7 +6,7 @@ React based imaginary platform meant for donating unnecessary stuff "in good han
 
 ### Preview
 
-https://in-good-hands.netlify.com/#/
+https://in-good-hands.netlify.com/#/main
 
 ## Technologies used
 
