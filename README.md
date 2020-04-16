@@ -2,15 +2,15 @@ Project created with [Create React App](https://github.com/facebook/create-react
 
 # In good hands
 
-React based imaginary platform meant for donating unnecessary stuff "in good hands". Looks good both on desktop and mobile ;) Platform is still in development, currently I am working on login and register logic.
+React based imaginary platform meant for donating unnecessary stuff "in good hands". Looks good both on desktop and mobile devices ;) Platform is still in development, currently I am working on login and register mechanism.
 
 ### Preview
 
-https://in-good-hands.netlify.com/#/
+https://in-good-hands.netlify.com/#/main
 
 ## Technologies used
 
-React, React Router, React Scroll, Axios, JavaScript, Sass, JSON Server.
+React, React Router, React Scroll, Axios, Fetch, JavaScript, Sass, JSON Server.
 
 ## Available Scripts
 
